@@ -162,7 +162,9 @@
       margin-right: 7px;
     }
 
-    &--cart {
+    &--cart, &--profile {
+      padding: 5px;
+      font-size: 12px;
       svg {
         margin-right: 2px;
       }

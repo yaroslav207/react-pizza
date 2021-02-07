@@ -32,3 +32,13 @@
     }
   }
 }
+@media all and (max-width: 500px){
+  .categories {
+    ul{
+      li{
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  }
+}

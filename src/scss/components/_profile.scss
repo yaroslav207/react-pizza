@@ -1,0 +1,59 @@
+.profile{
+  &-icon{
+    width: 20px;
+  }
+  &-title{
+    font-size: 2rem;
+  }
+  &-field{
+    span{
+      display: block;
+      font-size: 1.5rem;
+      margin: 0 0 6px;
+    }
+    input{
+      width: 100%;
+      height: 3rem;
+      font-size: 1.5rem;
+    }
+  }
+  &__form{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 3rem;
+  }
+}
+
+.profile-nav{
+  margin: 20px;
+  &__list{
+    display: flex;
+    justify-content: center;
+  }
+  &__item{
+
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    border-right: 1px solid #fe5f1e;
+
+    &:first-child{
+      border-left: 1px solid #fe5f1e;
+    }
+  }
+  .active{
+    color: white;
+    background: #fe5f1e;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .profile{
+    &__form{
+      grid-template-columns: minmax(250px, 1fr);
+      grid-gap: 0;
+    }
+  }
+}

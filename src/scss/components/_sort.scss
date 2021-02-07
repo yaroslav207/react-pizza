@@ -61,3 +61,11 @@
       }
   }
 }
+@media all and (max-width: 300px){
+  .sort{
+    &__label {
+      font-size: 14px;
+      font-weight: 800;
+    }
+    }
+}
