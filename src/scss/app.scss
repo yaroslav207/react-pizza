@@ -449,6 +449,22 @@ body {
   }
 
 }
+.table{
+  width: 100%;
+  border: 1px solid #eee9e3;
+
+  th{
+    text-align: left;
+    padding: 20px 0;
+  }
+  tr{
+
+  }
+  td{
+    padding: 20px 0;
+    border-top: 1px solid #eee9e3
+  }
+}
 
 @media all and (max-width: 300px) {
   .content {

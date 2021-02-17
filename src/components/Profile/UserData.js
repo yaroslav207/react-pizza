@@ -99,23 +99,23 @@ const UserData = () => (
             <div className="add-address-block">
                 <h4>Добавить адрес</h4>
                 <form className="add-address-block__form">
-                    <label className="profile-field">
+                    <label className="add-address-block__field profile-field city">
                         <span>Город</span>
                         <input type="text"/>
                     </label>
-                    <label className="profile-field">
+                    <label className="add-address-block__field profile-field street">
                         <span>Улица</span>
                         <input type="text"/>
                     </label>
-                    <label className="profile-field">
+                    <label className="add-address-block__field profile-field number">
                         <span>Номер дома</span>
                         <input type="text"/>
                     </label>
-                    <label className="profile-field">
+                    <label className="add-address-block__field profile-field number">
                         <span>Квартира</span>
                         <input type="text"/>
                     </label>
-                    <Button className='button--form'>
+                    <Button>
                         Сохранить
                     </Button>
                 </form>
